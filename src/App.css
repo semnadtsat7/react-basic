@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+  font-family: 'Prompt', sans-serif;
+  box-sizing:border-box;
+}
+
+body{
+  background-image: linear-gradient(0deg, rgba(90, 207, 156, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-height: 100vh;
+  margin:0;
+  padding: 30px 5% 0;
+  color: rgb(27, 27, 27);
+  font-size: 20px;
+
+}
+h1.head {
+  color: rgb(57, 75, 57);
+  font-size: 35px;
+
+}
+
+.container {
+  width:100%;
+  position: relative;
+  padding: 0 1%;
+}
+
+.horizontal-menu {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.686);
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.horizontal-menu li {
+  flex: 1;
+  display: inline-block;
+}
+.horizontal-menu a {  
+  /* ใช้ a แทน Link ได้ */
+   color: gray;
+   text-decoration: none;
+   padding: 10px;
+   display: block;
+   font-size: 20px;
+}
